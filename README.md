@@ -58,4 +58,5 @@ Sentimos las molestias.
 
 **Gif sobre el funcionamiento**
 
-![Alt Text](https://i.gyazo.com/e1c85024c81267ead8bd09bb875640cd.mp4)
+
+![Alt Text](https://i.gyazo.com/e1c85024c81267ead8bd09bb875640cd.gif)
