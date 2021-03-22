@@ -21,11 +21,11 @@ En esta quinta entrega hemos tenido la oportunidad de afrontar un proyecto abier
 
 Nuestra aplicación se fundamenta en una escena compuesta por tres modelos 3d u objetos, los cuales son:
 
-  -Una silla
+    -Una silla
   
-  -Un escritorio
+    -Un escritorio
   
-  -Una lámpara de escritorio
+    -Una lámpara de escritorio
   
 Dichos elementos están colocados de una forma orgánica simulando una habitación. Esta habitación se situa como eje central de nuestra cámara, esto implica que somos capaces de girar y "orbitar" al rededor de esta, pero nunca podemos dejarla de ver. Así mismo tenemos un foco de iluminación en nuestro ratón, es decir, allí donde esté apuntando nuestro puntero generará un foco de luz. Por último, tenemos una iluminación ambiental para darle profundidad a la escena.
 ![N|Solid](https://i.gyazo.com/8777fcff4da1a44ffba38edf8d415a4e.jpg)
@@ -42,14 +42,18 @@ Este apartado de tutorial se divide en dos partes, la cámara y la iluminación.
 
 Iluminación:
 
-  -Se generará un foco de luz en relación a la posición del puntero del ratón en los objetos.
-  -Existe una luz ambiental para la escena en general.
+    -Se generará un foco de luz en relación a la posición del puntero del ratón en los objetos.
+    -Existe una luz ambiental para la escena en general.
   
 Cámara:
 
-  -Movimiento en base 
+    -Al mantener el "click-izquierdo" somos capaces de rotar la cámara por nuestra escena.
   
-Para alternar entre las vistas usamos la tecla "espacio".
+**Notas del autor**
+
+A lo largo del desarrollo de la aplicación hemos sufrido diversos problemas al mantener una sesión prolongada de la mismas, estos problemas eran de carga con el disco duro. No sabemos si es un problema directo de la aplicación o algo particular e aislado. No obstante, nos vemos en la responsabilidad de comentar dicha información.
+
+Sentimos las molestias.
 
 **Gif sobre el funcionamiento**
 
