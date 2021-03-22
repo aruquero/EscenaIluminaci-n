@@ -8,6 +8,7 @@
   - La aplicación
   - Decisiones de diseño
   - Tutorial
+  - Notas del autor
   - Gif sobre el funcionamiento
 
 # Informe
@@ -30,18 +31,24 @@ Dichos elementos están colocados de una forma orgánica simulando una habitaci�
 ![N|Solid](https://i.gyazo.com/8777fcff4da1a44ffba38edf8d415a4e.jpg)
 
 **Decisiones de diseño**:
+
 Se ha decidido mantener nuestra composición de objetos como eje central de la escena para así imposibilitar mareos o "perdidas de cámara", es decir, con esto logramos atraer completamente la atracción del usuario en nuestra escena. Por otra parte, se ha decidido no poner una base inferior o lateral a modo de suelo y parades para dar más libertad al usuario en cuanto a cámara se refiere.
 
 ![N|Solid](https://i.gyazo.com/bd5985020a59bdae5119499050f8a65e.jpg)
 
 **Tutorial**
 
-Este apartado de tutorial se divide en dos partes, la primera y la tercera persona:
-Primera persona:
-  -Movimiento con las flechas del teclado.
-Tercera persona:
-  -Movimiento lateral y horizontal con las flechas del teclado.
-  -Movimiento vertical, con el CONTROL y SHIFT respectivamente.
+Este apartado de tutorial se divide en dos partes, la cámara y la iluminación.
+
+Iluminación:
+
+  -Se generará un foco de luz en relación a la posición del puntero del ratón en los objetos.
+  -Existe una luz ambiental para la escena en general.
+  
+Cámara:
+
+  -Movimiento en base 
+  
 Para alternar entre las vistas usamos la tecla "espacio".
 
 **Gif sobre el funcionamiento**
