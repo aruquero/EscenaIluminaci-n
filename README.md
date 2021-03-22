@@ -18,24 +18,19 @@ En esta quinta entrega hemos tenido la oportunidad de afrontar un proyecto abier
 
 **La aplicación**:
 
-Nuestra aplicación se fundamenta en una clase planeta que es la responsable de la gestión mayoritaria de la aplicación.
-Nuestra aplicación empieza con un planeta "Sol" el cual tiene varios planetas (máximo 10), que giran a su alrededor. A su vez, estos planetas pueden tener satélites que orbiten a su al rededor.
-Nuestra aplicación se fundamenta en la clase Planeta, para la generación y control de los respectivos planetas. Esta clase ya fue explicada en la anterior entrega.
-En esta ocasión hemos implementado una nave que puede navegar libremente por nuestro sistema solar. En este caso la nave es una caza Tie de la guerra de las galaxias.
 Nuestra aplicación se fundamenta en una escena compuesta por tres modelos 3d u objetos, los cuales son:
+
   -Una silla
+  
   -Un escritorio
+  
   -Una lámpara de escritorio
-Dichos elementos están colocados de una forma orgánica simulando una habitación. Esta habitación se situa como eje central de nuestra cámara, esto implica que somos capaces de girar y "orbitar" al rededor de esta, pero nunca podemos dejarla de ver. Así mismo tenemos un foco de iluminación en nuestro ratón, es decir, allí donde esté apuntando nuestro puntero generará un foco de luz. Por último, tenemos u
+  
+Dichos elementos están colocados de una forma orgánica simulando una habitación. Esta habitación se situa como eje central de nuestra cámara, esto implica que somos capaces de girar y "orbitar" al rededor de esta, pero nunca podemos dejarla de ver. Así mismo tenemos un foco de iluminación en nuestro ratón, es decir, allí donde esté apuntando nuestro puntero generará un foco de luz. Por último, tenemos una iluminación ambiental para darle profundidad a la escena.
 ![N|Solid](https://i.gyazo.com/8777fcff4da1a44ffba38edf8d415a4e.jpg)
 
-En primera instancia comenzamos con una vista en tercera persona de la nave, esta vista nos permite unicamente movernos en los ejes "X" e "Y", es decir, un movimiento bidimensional para nuestra nave y así poder desplazarnos vertical y horizontalmente.
-
-Posteriormente pulsando la tecla "espacio" podemos acceder al modo en primera persona, este modo nos añade un eje adicional en el movimiento de la nave, la profundidad o también denominado eje "Z". Este nuevo movimiento nos permite un movimiento en los 3 ejes nos permite una completa libertad de movimiento.
-
 **Decisiones de diseño**:
-
-Se ha decidido implementar una vista lateral con la nave volteada para favorecer el movimiento y la transición al pasar a primera persona, esto ayuda a mantener una orientación de donde se encuentra la nave y así no perder las proporciones del sistema. En primera persona los controles de las flechas se invierten para dar paso al "Control" y "Shift" como teclas de movmiento vertical, mientras que las flechas continuan con su funcion sobre el eje "X" y "Z".
+Se ha decidido mantener nuestra composición de objetos como eje central de la escena para así imposibilitar mareos o "perdidas de cámara", es decir, con esto logramos atraer completamente la atracción del usuario en nuestra escena. Por otra parte, se ha decidido no poner una base inferior o lateral a modo de suelo y parades para dar más libertad al usuario en cuanto a cámara se refiere.
 
 ![N|Solid](https://i.gyazo.com/bd5985020a59bdae5119499050f8a65e.jpg)
 
