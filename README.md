@@ -1,6 +1,6 @@
 # Escena camara e iluminacion
 
-![N|Solid](https://i.gyazo.com/c1ebc76c699252789da35563f5f69753.jpg)
+![N|Solid](https://i.gyazo.com/c224d3d8dabf6257b3f99b6dbc8c2cbb.png)
 
 # Indice
 
@@ -28,13 +28,13 @@ Nuestra aplicación se fundamenta en una escena compuesta por tres modelos 3d u 
     -Una lámpara de escritorio
   
 Dichos elementos están colocados de una forma orgánica simulando una habitación. Esta habitación se situa como eje central de nuestra cámara, esto implica que somos capaces de girar y "orbitar" al rededor de esta, pero nunca podemos dejarla de ver. Así mismo tenemos un foco de iluminación en nuestro ratón, es decir, allí donde esté apuntando nuestro puntero generará un foco de luz. Por último, tenemos una iluminación ambiental para darle profundidad a la escena.
-![N|Solid](https://i.gyazo.com/8777fcff4da1a44ffba38edf8d415a4e.jpg)
+![N|Solid](https://i.gyazo.com/7476228273e00ff13c9a1edb15267a58.png)
 
 **Decisiones de diseño**:
 
 Se ha decidido mantener nuestra composición de objetos como eje central de la escena para así imposibilitar mareos o "perdidas de cámara", es decir, con esto logramos atraer completamente la atracción del usuario en nuestra escena. Por otra parte, se ha decidido no poner una base inferior o lateral a modo de suelo y parades para dar más libertad al usuario en cuanto a cámara se refiere.
 
-![N|Solid](https://i.gyazo.com/bd5985020a59bdae5119499050f8a65e.jpg)
+![N|Solid](https://i.gyazo.com/2a657512c409c0cf7870a8fe749f6930.png)
 
 **Tutorial**
 
